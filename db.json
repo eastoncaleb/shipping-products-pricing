@@ -1,36 +1,130 @@
 {
-	"regions": [
-		{
-			"id": 1,
-			"name": "Southeast"
-		},
-		{
-			"id": 2,
-			"name": "Northeast"
-		}
-	],
-	"serviceLevels": [
-		{
-			"id": 1,
-			"name": "Ground"
-		},
-		{
-			"id": 2,
-			"name": "Priority"
-		}
-	],
-	"prices": [
-		{
-			"id": 1,
-			"regionId": 1,
-			"serviceLevelId": 1,
-			"price": 10
-		},
-		{
-			"id": 2,
-			"regionId": 1,
-			"serviceLevelId": 2,
-			"price": 20
-		}
-	]
+  "regions": [
+    {
+      "id": 1,
+      "name": "Southeast"
+    },
+    {
+      "id": 2,
+      "name": "Northeast"
+    },
+    {
+      "id": 3,
+      "name": "Midwest"
+    },
+    {
+      "id": 4,
+      "name": "Southwest"
+    },
+    {
+      "id": 5,
+      "name": "Northwest"
+    }
+  ],
+  "serviceLevels": [
+    {
+      "id": 1,
+      "name": "Ground"
+    },
+    {
+      "id": 2,
+      "name": "Priority"
+    },
+    {
+      "id": 3,
+      "name": "Express"
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "regionId": 1,
+      "serviceLevelId": 1,
+      "price": 10
+    },
+    {
+      "id": 2,
+      "regionId": 1,
+      "serviceLevelId": 2,
+      "price": 10
+    },
+    {
+      "id": 3,
+      "regionId": 2,
+      "serviceLevelId": 1,
+      "price": 15
+    },
+    {
+      "id": 4,
+      "regionId": 2,
+      "serviceLevelId": 2,
+      "price": 15
+    },
+    {
+      "id": 5,
+      "regionId": 2,
+      "serviceLevelId": 3,
+      "price": 15
+    },
+    {
+      "id": 6,
+      "regionId": 1,
+      "serviceLevelId": 3,
+      "price": 10
+    },
+    {
+      "id": 7,
+      "regionId": 3,
+      "serviceLevelId": 1,
+      "price": 20
+    },
+    {
+      "id": 8,
+      "regionId": 3,
+      "serviceLevelId": 2,
+      "price": 20
+    },
+    {
+      "id": 9,
+      "regionId": 3,
+      "serviceLevelId": 3,
+      "price": 20
+    },
+    {
+      "id": 10,
+      "regionId": 4,
+      "serviceLevelId": 1,
+      "price": 25
+    },
+    {
+      "id": 11,
+      "regionId": 4,
+      "serviceLevelId": 2,
+      "price": 25
+    },
+    {
+      "id": 12,
+      "regionId": 4,
+      "serviceLevelId": 3,
+      "price": 25
+    },
+    {
+      "id": 13,
+      "regionId": 5,
+      "serviceLevelId": 1,
+      "price": 30
+    },
+    {
+      "id": 14,
+      "regionId": 5,
+      "serviceLevelId": 2,
+      "price": 30
+    },
+    {
+      "id": 15,
+      "regionId": 5,
+      "serviceLevelId": 3,
+      "price": 30
+    }
+  ]
 }
